@@ -1,6 +1,6 @@
 name: ${project.name}
 version: ${project.version}
-main: com.lenis0012.bukkit.loginsecurity.LoginSecurity
+main: com.noxshadow.nxlogin.NXLogin
 author: lenis0012
 description: 'The #1 Auth plugin'
 softdepend: [ProtocolLib]
@@ -23,12 +23,12 @@ commands:
     description: Unregister your account.
     usage: /unregister <current password>
   lac:
-    description: LoginSecurity Admin command.
+    description: NXLogin Admin main command.
     usage: /lac
 permissions:
   ls.update:
     description: Notify player of available updates
     default: op
   ls.bypass:
-    description: Bypass registration requirement
+    description: Bypass registration requirement.
     default: false
